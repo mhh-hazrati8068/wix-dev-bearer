@@ -1,0 +1,8 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/ecom-shipping-rates.json",
+  "id": "5b1b6882-9d87-43ec-a6d2-9d2e263c5bfa",
+  "name": "Bearer",
+  "description": "Under 90 minutes delivery",
+  "fallbackDefinitionMandatory": false,
+  "dashboardUrl": "http://localhost:5174/dashboard"
+}

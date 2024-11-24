@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "e78ef6c6-eb15-4b24-91c0-dd6367e2effe",
+  "projectId": "bearer"
+}

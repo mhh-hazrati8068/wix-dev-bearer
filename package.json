@@ -1,0 +1,37 @@
+{
+  "name": "bearer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@wix/dashboard": "^1.3.21",
+    "@wix/dashboard-react": "^1.0.22",
+    "@wix/design-system": "^1.139.2",
+    "@wix/ecom": "^1.0.668",
+    "@wix/editor": "^1.308.0",
+    "@wix/sdk-react": "^0.5.7",
+    "@wix/stores": "^1.0.281",
+    "@wix/wix-ui-icons-common": "^3.53.0",
+    "git": "^0.1.5",
+    "react-to-webcomponent": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "@wix/cli": "^1.0.0",
+    "@wix/cli-app": "^1.0.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "wix": "wix",
+    "build": "wix app build",
+    "create-version": "wix app create-version",
+    "dev": "wix app dev",
+    "preview": "wix app preview",
+    "serve": "wix app serve",
+    "generate": "wix app generate",
+    "logs": "wix app logs",
+    "typecheck": "tsc --noEmit"
+  }
+}
