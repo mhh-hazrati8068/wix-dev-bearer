@@ -17,13 +17,13 @@ const Index: FC = () => {
     <WixDesignSystemProvider>
       <Page>
         <Page.Header
-          title="Dashboard Page"
-          subtitle="Add management capabilities to your app."
+          title="Bearer"
+          subtitle="Welcome to Bearer"
           actionsBar={
             <Button
               onClick={() => {
                 dashboard.showToast({
-                  message: 'Your toast message!',
+                  message: 'Bearer delivery service Activated',
                 });
               }}
               prefixIcon={<Icons.AIAssistantSmall />}
@@ -32,25 +32,9 @@ const Index: FC = () => {
             </Button>
           }
         />
-        <Page.Content>
-          <EmptyState
-            image={
-              <Image fit="contain" height="100px" src={wixLogo} transparent />
-            }
-            title="Start editing this dashboard page"
-            subtitle="Learn how to work with dashboard pages and how to add functionality to them using Wix APIs."
-            theme="page"
-          >
-            <TextButton
-              as="a"
-              href="https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/wix-cli/supported-extensions/dashboard-extensions/dashboard-pages/add-dashboard-page-extensions-with-the-cli#add-dashboard-page-extensions-with-the-cli"
-              target="_blank"
-              prefixIcon={<Icons.ExternalLink />}
-            >
-              Dashboard pages documentation
-            </TextButton>
-          </EmptyState>
-        </Page.Content>
+        {/* <Page.Content>
+         
+        </Page.Content> */}
       </Page>
     </WixDesignSystemProvider>
   );
